@@ -1,4 +1,4 @@
-# RS485 Wind Direction Transmitter V2
+# DFRobot_Microwave_Radar_Module
 
 - This is a 5.8G Hz millimeter wave human presence detection radar module with high sensitivity. Different from the traditional way of judging whether people exist only by detecting large movements of the human body, this module can judge whether people exist by detecting tiny movements such as human breathing with high sensitivity. Therefore, no matter whether the human body is sitting still, sleeping and so on, it can accurately perceive the existence of people. The sensing results can be output through serial port or high-low level output through I/O port, and the sensor module has the characteristics of strong sensing reliability, high sensitivity, small size, simple use, strong anti-interference and easy integration. It can be widely used in lighting, security, home, household appliances, hotels, garages, buildings, traffic and other industries that need to detect human micro-motion.
 
