@@ -6,7 +6,7 @@ DFRobot_Microwave_Radar_Module::DFRobot_Microwave_Radar_Module(HardwareSerial *h
   _ser = hardSerial;
 }
 
-#if defined(ARDUINO_AVR_UNO)||defined(ESP8266)
+#if defined(__AVR__)||defined(ESP8266)
 DFRobot_Microwave_Radar_Module::DFRobot_Microwave_Radar_Module(SoftwareSerial *softSerial)
 {
   softSerial->begin(115200);

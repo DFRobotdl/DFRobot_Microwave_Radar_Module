@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#if defined(ARDUINO_AVR_UNO)||defined(ESP8266)
+#if defined(__AVR__)||defined(ESP8266)
 #include <SoftwareSerial.h>
 #endif
 
@@ -27,7 +27,7 @@ class DFRobot_Microwave_Radar_Module
        @return None
     */
     DFRobot_Microwave_Radar_Module(HardwareSerial *hardSerial);
-#if defined(ARDUINO_AVR_UNO)||defined(ESP8266)
+#if defined(__AVR__)||defined(ESP8266)
     DFRobot_Microwave_Radar_Module(SoftwareSerial *softSerial);
 #elif defined(ESP32)
     DFRobot_Microwave_Radar_Module(HardwareSerial *hardSerial, uint8_t rx, uint8_t tx);

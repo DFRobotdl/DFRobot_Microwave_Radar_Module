@@ -77,6 +77,7 @@ void factoryReset ( void );
 | Arduino uno   |     √     |            |          |         |
 | Mega2560      |     √     |            |          |         |
 | Leonardo      |           |            |      √   |         |
+| ATTiny84 |     √     |            |          |         |
 | ESP32         |     √     |            |          |         |
 |               |           |            |          |         |
 
